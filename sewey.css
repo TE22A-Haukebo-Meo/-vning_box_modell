@@ -1,0 +1,45 @@
+h1{
+    font-size: 5em;
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(221, 255, 0);
+    border: 5px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-top: 20px;
+    color: blue;
+}
+.grey-box{
+    border:2px solid black;
+    border-radius: 5px;
+    background-color: rgb(193, 193, 193);
+    margin: 2%;
+    padding: 2%;
+    align-items: left;
+
+}
+p{
+    font-size: 40px;
+    text-align: left;
+}
+h2{
+    font-size: 100px;
+    color: black;
+    text-align: center;
+}
+body{
+    background-image: url(./img/showcase.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.end-picture{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+img{
+    width: max-content;
+    height: max-content;
+}
